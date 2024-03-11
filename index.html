@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas Developer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images\logo.png">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css\style.css">
+
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <li class="menu"><a class="active" href="index.html"><img class="logo" src="images/logo.png"
+                        alt="logo"><b>Kelas Developer</b></a></li>
+            <li class="menu"><a href="jsdasar.html" target="_blank">JS Dasar</a></li>
+            <li class="menu"><a href="form.html" target="_blank">Form</a></li>
+            <li class="menu"><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel-contents">
+            <a href="form.html" target="_blank"><img class="carousel-pictures" src="images/html5.jpg"></a>
+        </div>
+
+        <div class="carousel-contents">
+            <a href="#"><img class="carousel-pictures" src="images/css.png"></a>
+        </div>
+
+        <div class="carousel-contents">
+            <a href="jsdasar.html" target="_blank"><img class="carousel-pictures" src="images/js.png"></a>
+        </div>
+        <a class="prev" onclick="nextCarousel(-1)">&#10094;</a>
+        <a class="next" onclick="nextCarousel(1)">&#10095;</a>
+    </div><br>
+
+    <h1>Materi Web Development</h1>
+    <table>
+        <tr>
+            <td class="table-content"><a href="form.html" target="_blank"><img class="table-images"
+                        src="images/logo-html.png" alt="HTML 5"></a></td>
+            <td class="table-content"><a href="#"><img class="table-images" src="images/logo-css.png" alt="CSS 3"></a>
+            </td>
+            <td class="table-content"><a href="jsdasar.html" target="_blank"><img class="table-images"
+                        src="images/logo-js.png" alt="JavaScript"></a></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="form.html" target="_blank">
+                    <h2>Form HTML</h2>
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <h2>Coming Soon!</h2>
+                </a>
+            </td>
+            <td>
+                <a href="jsdasar.html" target="_blank">
+                    <h2>JavaScript Dasar</h2>
+                </a>
+            </td>
+        </tr>
+    </table>
+    </div>
+
+    <!-- Link JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
