@@ -12,13 +12,13 @@ for (let i = 0; i < 3; i++) {
     anchor.href = links[i];
     anchor.target = "_blank";
 
-    let images = document.createElement("img");
-    images.className = "carousel-pictures";
-    images.src = imagesSrc[i];
+    let img = document.createElement("img");
+    img.className = "carousel-pictures";
+    img.src = imagesSrc[i];
 
-    anchor.appendChild(images);
-    div.appendChild(anchor);
     carouselContainer.appendChild(div);
+    div.appendChild(anchor);
+    anchor.appendChild(img);
 }
 
 let prev = document.createElement("a");
