@@ -1,3 +1,4 @@
+// Carousel
 let carouselIndex = 1;
 displayCarousel(carouselIndex);
 
@@ -14,4 +15,14 @@ function displayCarousel(a) {
         carousels[i].style.display = "none";
     }
     carousels[carouselIndex - 1].style.display = "block";
+}
+
+// Responsive Navbar
+function responsiveNav() {
+    var x = document.getElementById("navbar");
+    if (x.className === "navbar") {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar";
+    }
 }
